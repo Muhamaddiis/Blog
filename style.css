@@ -45,10 +45,11 @@ body {
     cursor: pointer;
   }
 .Description {
+    margin-bottom: 0rem;
     width: 100%;
-    height: 100vh;
     background-color: #ffff;
     background-size: cover;
+    display: flex;
 }
 .header{
     position: relative; top: 25px;
@@ -60,21 +61,36 @@ body {
     font-size: 30px;
     letter-spacing: 0.5rem;
 }
-.Dog {
-    position: relative; top: -70px;
+.kalb {
+    height: 5rem;
+    width: 10rem;
+    margin-top: 1.5rem;
 }
-.Grey{
+.row {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.dog {
+    margin-top: 4rem;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: flex-start;
+}
+.dog2{
+    margin-top: 0rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.grey{
     color: grey;
-    margin-left: 10rem;
-    margin-top: 0;
-    padding: 1rem;
-    position: relative; top: 50px;
 }
 .chatgpt {
     width: 100%;
     height: 100vh;
     background-color: #ffff;
     background-size: cover;
+    
 }
 h6 {
     position: relative; top: 25px;
